@@ -6,7 +6,7 @@
 # --- Required options --- #
 
 # Name of website
-title: My Website
+title: Data Dives
 
 # Your name to show in the footer
 author: Nathan McDonough
@@ -39,12 +39,12 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
+  email: "n8.mcdonough@gmail.com"
+#  facebook: deanattali
+  github: n8mcdunna
+  twitter: NathanMcDonoug9
 #  reddit: yourname
-#  linkedin: daattali
+  linkedin: https://www.linkedin.com/in/nathan-mcdonough-5983a279/
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
