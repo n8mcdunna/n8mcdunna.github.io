@@ -16,7 +16,7 @@ This dataset is from a large and anonymous city in the southeastern part of the 
 
 This dataset shows the records of all reported traffic stops from a large southeastern city in the United States in 2016. Since this data is only from one city for one year the data is just a sample of what happens at traffic stops. A more thorough analysis of traffic stops and yearly trends in the US is beyond the scope of this post.
 
-![Analysis notebook](https://colab.research.google.com/drive/1mkk8PlMwRqNhetWWzT5IobfXga0dMDQ_#scrollTo=FAQhY9vHU9Mz)
+[Analysis notebook](https://colab.research.google.com/drive/1mkk8PlMwRqNhetWWzT5IobfXga0dMDQ_#scrollTo=FAQhY9vHU9Mz)
 
 ## Who gets stopped?
 At the beginning of this project I wanted to look at 
