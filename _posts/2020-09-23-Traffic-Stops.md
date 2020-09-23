@@ -10,13 +10,12 @@ tags: [Lambda]
 ## Why I care about traffic stops and so do you
 Every time a patrol car gets behind my car my pulse quickens and my palms start to sweat. What did I do?! I begin to quickly go through what I must have done to get pulled over. Then the patrol car smoothly passes me and pulls over someone in front of me. Who is that person? What did that person do? How they are being punished? This post begins to answer these questions.
 ## About the Data
-Here is my [raw data.](http://users.stat.ufl.edu/~winner/data/trafficstop.csv)
-Here is my [analysis notebook.](https://colab.research.google.com/drive/1mkk8PlMwRqNhetWWzT5IobfXga0dMDQ_#scrollTo=FAQhY9vHU9Mz)
+Here is the [raw data.](http://users.stat.ufl.edu/~winner/data/trafficstop.csv)
+Here is the [analysis notebook.](https://colab.research.google.com/drive/1mkk8PlMwRqNhetWWzT5IobfXga0dMDQ_#scrollTo=FAQhY9vHU9Mz)
 
 This dataset is from a large and anonymous city in the southeastern part of the United States, and was pulled from the University of Florida website. University of Florida retrieved the data from data.gov. This dataset was already cleaned, categorized, and ready for analysis. 
 
 This dataset shows the records of all reported traffic stops from a large southeastern city in the United States in 2016. Since this data is only from one city for one year the data is just a sample of what happens at traffic stops. A more thorough analysis of traffic stops and yearly trends in the US is beyond the scope of this post.
-
 ## Who gets stopped?
 At the beginning of this project I wanted to look at 
 As you can see below the data is clear: the younger you are the more likely you are to be pulled over.
