@@ -19,7 +19,13 @@ This dataset is from a large and anonymous city in the southeastern part of the 
 This dataset shows the records of all reported traffic stops from a large southeastern city in the United States in 2016. Since this data is only from one city for one year the data is just a sample of what happens at traffic stops. A more thorough analysis of traffic stops and yearly trends in the US is beyond the scope of this post.
 ## Who gets stopped?
 At the beginning of this project I wanted to look at 
-As you can see below the data is clear: the younger you are the more likely you are to be pulled over.
+As you can see below the data is clear there is a clear decline in traffic stops related to the age of the driver. Teen drivers do not have many stops probably because there are not as many drivers compared to the other decades.
+
+![Age Group](/assets/img/age_groups.png)
+
+So, why are people in their 20s getting stopped for? The graph below shows
+
+![Age Group and Result](/assets/img/age_group_and_result (1).png)
 
 ## What caused a traffic stop and what was the result?
 As shown in the above below if you are speeding or driving a vehicle without the proper registration you are much more likely to be pulled over. Those two categories combine for over 68% of all traffic stops. 
@@ -28,4 +34,4 @@ It seems like for the officers in this city if they are going to take the time t
 
 Although the police seem to have a lot of advertising campaigns on preventing DWIs and wearing your seatbelt this is not reflected in the percent of traffic stops with seatbelts accounting for 0.8% and DWIs for 0.14% of total traffic stops.
 
-![Reason and Result](/assets/img/reason_and_result (3).png)
+![Reason and Result](/assets/img/reason_and_result (4).png)
