@@ -39,3 +39,5 @@ The police seem to have a lot of advertising campaigns in the southeastern city 
 
 # Conclusion
 Keep your vehicle registration up to date, be careful about speed limits, and be extra careful if you are in your 20s!
+
+For more content like this check out [my github](https://github.com/n8mcdunna) and [my medium account](https://medium.com/@n8.mcdonough)
