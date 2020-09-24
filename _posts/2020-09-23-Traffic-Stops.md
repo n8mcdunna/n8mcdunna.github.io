@@ -14,24 +14,26 @@ Here is the [raw data.](http://users.stat.ufl.edu/~winner/data/trafficstop.csv)
 
 Here is the [analysis notebook.](https://colab.research.google.com/drive/1mkk8PlMwRqNhetWWzT5IobfXga0dMDQ_#scrollTo=FAQhY9vHU9Mz)
 
-This dataset is from a large and anonymous city in the southeastern part of the United States, and was pulled from the University of Florida website. University of Florida retrieved the data from data.gov. This dataset was already cleaned, categorized, and ready for analysis. 
+This dataset was pulled from the University of Florida website. University of Florida retrieved the data from data.gov. This dataset was already cleaned and ready for analysis. 
 
 This dataset shows the records of all reported traffic stops from a large southeastern city in the United States in 2016. Since this data is only from one city for one year the data is just a sample of what happens at traffic stops. A more thorough analysis of traffic stops and yearly trends in the US is beyond the scope of this post.
 ## Who gets stopped?
-At the beginning of this project I wanted to look at 
-As you can see below the data is clear there is a clear decline in traffic stops related to the age of the driver. Teen drivers do not have many stops probably because there are not as many drivers compared to the other decades.
+ 
+As you can see below there is a clear decline in traffic stops related to the age of the driver. Teen drivers do not have many stops probably because they are only legally allowed to drive for a few years whereas the other decades account for ten years of stops. This also explains why rental agencies and insurance companies charge higher rates for people in their 20s.
 
 ![Age Group](/assets/img/age_groups.png)
 
-So, why are people in their 20s getting stopped for? The graph below shows
+## What caused a traffic stop and what was the result?
+So, why are people in their 20s getting stopped? The graph below shows the answer and the answer is pretty boring with the number one reason being vehicle registration. The data shows that the older you are the more stops you have for speeding, although teens lead the speeding category with about 35% of their stops being speeding related. Another reason the percentage of speeding stops increases with age is because the vehicle registration percentage decreases as drivers get more disciplined in keeping track of their registration.
 
 ![Age Group and Result](/assets/img/age_group_and_result (1).png)
 
-## What caused a traffic stop and what was the result?
-As shown in the above below if you are speeding or driving a vehicle without the proper registration you are much more likely to be pulled over. Those two categories combine for over 68% of all traffic stops. 
+As shown in the graph below if you are speeding or driving a vehicle without the proper registration you are much more likely to be pulled over. Those two categories combine for over 68% of all traffic stops. Both of these offenses are easily visible to a patrolling officer which could lead to their high rates. 
 
-It seems like for the officers in this city if they are going to take the time to write something down they are going to make it count with 41% of the time the officers issue a citation versus just 4% of the time giving a written warning. Furthermore, the percent of people arrested from a traffic stop is very low at 1.97%. However if you are stopped for a DWI the percent of arrests skyrocket to 75%. 
+It seems like for the officers in this city if they are going to take the time to write something down they are going to make it count. The officers issue a citation 41% of the time versus just giving a written warning 4% of the time. 
 
-Although the police seem to have a lot of advertising campaigns on preventing DWIs and wearing your seatbelt this is not reflected in the percent of traffic stops with seatbelts accounting for 0.8% and DWIs for 0.14% of total traffic stops.
+The percent of people arrested from a traffic stop is very low at 1.97%. However if you have the misfortune of being stopped on suspicion of DWI the percent of arrests skyrocket to 75%. 
+
+Although the police seem to have a lot of advertising campaigns in the southeastern city that I live in for preventing DWIs and wearing your seatbelt this is not reflected in the percent of traffic stops with seatbelts accounting for 0.8% and DWIs for a measly 0.14% of total traffic stops.
 
 ![Reason and Result](/assets/img/reason_and_result (4).png)
