@@ -34,7 +34,7 @@ It seems like for the officers in this city if they are going to take the time t
 
 The percent of people arrested from a traffic stop is very low at 1.97%. However if you have the misfortune of being stopped on suspicion of DWI the percent of arrests skyrocket to 75%. 
 
-The police seem to have a lot of advertising campaigns in the southeastern city that I live in(which may or may not be the city represented by the data) for preventing DWIs and wearing your seatbelt this is not reflected in the percent of traffic stops with seatbelts accounting for 0.8% and DWIs for a measly 0.14% of total traffic stops.
+The police seem to have a lot of advertising campaigns in the southeastern city that I live in(which may or may not be the city represented by the data) for preventing DWIs and wearing your seatbelt this is not reflected in the percent of traffic stops. Seatbelts accounted for 0.8%, and DWIs for a measly 0.14% of total traffic stops.
 
 ![Reason and Result](/assets/img/reason_and_result (4).png){: .mx-auto.d-block :}
 
