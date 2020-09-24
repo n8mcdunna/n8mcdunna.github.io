@@ -37,3 +37,6 @@ The percent of people arrested from a traffic stop is very low at 1.97%. However
 Although the police seem to have a lot of advertising campaigns in the southeastern city that I live in for preventing DWIs and wearing your seatbelt this is not reflected in the percent of traffic stops with seatbelts accounting for 0.8% and DWIs for a measly 0.14% of total traffic stops.
 
 ![Reason and Result](/assets/img/reason_and_result (4).png){: .mx-auto.d-block :}
+
+# Conclusion
+Keep your vehicle registration up to date, be careful about speed limits, and be extra careful if you are in your 20s!
