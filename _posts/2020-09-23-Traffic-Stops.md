@@ -19,12 +19,12 @@ This dataset was pulled from the University of Florida website. University of Fl
 This dataset shows the records of all reported traffic stops from a large southeastern city in the United States in 2016. Since this data is only from one city for one year the data is just a sample of what happens at traffic stops. A more thorough analysis of traffic stops and yearly trends in the US is beyond the scope of this post.
 ## Who gets stopped?
  
-As you can see below there is a clear decline in traffic stops related to the age of the driver. Teen drivers do not have many stops probably because they are only legally allowed to drive for a few years whereas the other decades account for ten years of stops. This also explains why rental agencies and insurance companies charge higher rates for people in their 20s.
+As you can see below there is a clear decline in traffic stops related to the age of the driver. Teen drivers do not have many stops. This is probably because they are only legally allowed to drive for a few years whereas the other age groups account for ten years of stops. This also explains why rental agencies and insurance companies charge higher rates for people in their 20s.
 
 ![Age Group](/assets/img/age_groups.png){: .mx-auto.d-block :}
 
 ## What caused a traffic stop and what was the result?
-So, why are people in their 20s getting stopped? The graph below shows the answer and the answer is pretty boring with the number one reason being vehicle registration. The data shows that the older you are the more stops you have for speeding, although teens lead the speeding category with about 35% of their stops being speeding related. Another reason the percentage of speeding stops increases with age is because the vehicle registration percentage decreases as drivers get more disciplined in keeping track of their registration.
+So, why are people in their 20s getting stopped? The graph below shows the answer, and the answer is pretty boring with the number one reason being vehicle registration. The data shows that the older you are the more stops you have for speeding, although teens lead the speeding category with about 35% of their stops being speeding related. Another reason the percentage of speeding stops increases with age could be because the vehicle registration percentage decreases as drivers get more disciplined in keeping track of their registration.
 
 ![Age Group and Result](/assets/img/age_group_and_result (1).png){: .mx-auto.d-block :}
 
@@ -34,7 +34,7 @@ It seems like for the officers in this city if they are going to take the time t
 
 The percent of people arrested from a traffic stop is very low at 1.97%. However if you have the misfortune of being stopped on suspicion of DWI the percent of arrests skyrocket to 75%. 
 
-Although the police seem to have a lot of advertising campaigns in the southeastern city that I live in for preventing DWIs and wearing your seatbelt this is not reflected in the percent of traffic stops with seatbelts accounting for 0.8% and DWIs for a measly 0.14% of total traffic stops.
+The police seem to have a lot of advertising campaigns in the southeastern city that I live in(which may or may not be the city represented by the data) for preventing DWIs and wearing your seatbelt this is not reflected in the percent of traffic stops with seatbelts accounting for 0.8% and DWIs for a measly 0.14% of total traffic stops.
 
 ![Reason and Result](/assets/img/reason_and_result (4).png){: .mx-auto.d-block :}
 
