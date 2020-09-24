@@ -21,12 +21,12 @@ This dataset shows the records of all reported traffic stops from a large southe
  
 As you can see below there is a clear decline in traffic stops related to the age of the driver. Teen drivers do not have many stops probably because they are only legally allowed to drive for a few years whereas the other decades account for ten years of stops. This also explains why rental agencies and insurance companies charge higher rates for people in their 20s.
 
-![Age Group](/assets/img/age_groups.png)
+![Age Group](/assets/img/age_groups.png){: .mx-auto.d-block :}
 
 ## What caused a traffic stop and what was the result?
 So, why are people in their 20s getting stopped? The graph below shows the answer and the answer is pretty boring with the number one reason being vehicle registration. The data shows that the older you are the more stops you have for speeding, although teens lead the speeding category with about 35% of their stops being speeding related. Another reason the percentage of speeding stops increases with age is because the vehicle registration percentage decreases as drivers get more disciplined in keeping track of their registration.
 
-![Age Group and Result](/assets/img/age_group_and_result (1).png)
+![Age Group and Result](/assets/img/age_group_and_result (1).png){: .mx-auto.d-block :}
 
 As shown in the graph below if you are speeding or driving a vehicle without the proper registration you are much more likely to be pulled over. Those two categories combine for over 68% of all traffic stops. Both of these offenses are easily visible to a patrolling officer which could lead to their high rates. 
 
@@ -36,4 +36,4 @@ The percent of people arrested from a traffic stop is very low at 1.97%. However
 
 Although the police seem to have a lot of advertising campaigns in the southeastern city that I live in for preventing DWIs and wearing your seatbelt this is not reflected in the percent of traffic stops with seatbelts accounting for 0.8% and DWIs for a measly 0.14% of total traffic stops.
 
-![Reason and Result](/assets/img/reason_and_result (4).png)
+![Reason and Result](/assets/img/reason_and_result (4).png){: .mx-auto.d-block :}
