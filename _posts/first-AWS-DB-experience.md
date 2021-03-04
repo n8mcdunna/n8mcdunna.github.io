@@ -1,45 +1,46 @@
 ---
 layout: post
-title: What happens at traffic stops?
-subtitle: Quit rubbernecking and look here instead
+title: First Experience Using AWS
+subtitle: Planning the architecture, building a database, and deploying an API
 cover-img: /assets/img/path.jpg
 #thumbnail-img: /assets/img/thumb.png
 #share-img: /assets/img/path.jpg
 tags: [Lambda]
 ---
-## Why I care about traffic stops and so do you
-Every time a patrol car gets behind my car my pulse quickens and my palms start to sweat. What did I do?! I begin to quickly go through what I must have done to get pulled over. Then the patrol car smoothly passes me and pulls over someone in front of me. Who is that person? What did that person do? How they are being punished? This post begins to answer these questions.
-## About the Data
-### Here is the [raw data.](http://users.stat.ufl.edu/~winner/data/trafficstop.csv)
-### Here is the [analysis notebook.](https://colab.research.google.com/drive/1mkk8PlMwRqNhetWWzT5IobfXga0dMDQ_#scrollTo=FAQhY9vHU9Mz)
+## Why this project?
+Human Right First is a nonprofit with a mission of upholding human rights and fighting for freedom around the globe. One of their apps highlights incidents of police brutality specifically at protests in the United States. For this project, the goal was to get a more comprehensive and robust data collection method for use in the app. Currently, the only source of data to the app was through Police Brutality 2020 where the data is manually crowdsourced through volunteers.
 
-This dataset was pulled from the University of Florida website. University of Florida retrieved the data from data.gov. This dataset was already cleaned and ready for analysis. 
+## What is the scope of work?
+The project goal of getting more comprehensive data of all the incidents taking place was to be accomplished using Twitter. The plan was to acquire data using the Twitter API. Then, classify that data using a machine learning algorithm and get the incidents classified as police brutality to the app.
 
-This dataset shows the records of all reported traffic stops from a large southeastern city in the United States in 2016. Since this data is only from one city for one year the data is just a sample of what happens at traffic stops. A more thorough analysis of traffic stops and yearly trends in the US is beyond the scope of this post.
-## Who gets stopped?
- 
-As you can see below there is a clear decline in traffic stops related to the age of the driver. Teen drivers do not have many stops. This is probably because they are only legally allowed to drive for a few years whereas the other age groups account for ten years of stops. This also explains why rental agencies and insurance companies charge higher rates for people in their 20s.
+My role in the project team was to verify that the current source of data would smoothly combine with the new Twitter source and also build a way to transfer data between the data science team and the app.
 
-![Age Group](/assets/img/age_groups.png){: .mx-auto.d-block :}
+## What were the technical challenges?
+There were many questions:
+How would we store the tweets that had been classified by the model?
+If we use a database what kind should be used?
+Do we need an API?
+How do I even build an API??
 
-## What caused a stop and what was the result?
-So, why are people in their 20s getting stopped? The graph below shows the answer, and the answer is pretty boring with the number one reason being vehicle registration. The data shows that the older you are the more stops you have for speeding, although teens lead the speeding category with about 35% of their stops being speeding related. Another reason the percentage of speeding stops increases with age could be because the vehicle registration percentage decreases as drivers get more disciplined in keeping track of their registration.
+The first problem to solve was how the data was going to flow from our sources to the app. The current way that data was being transferred was through the use of a CSV file that was generated, sent to the app, and then deleted once a day. 
+
+## How were these challenges resolved?
+An API connected to a database seemed to be the best solution. This method would increase the automation and scalability of the data retrieval process for the app. Here is a simple flowchart of the architecture:
 
 ![Data Science Architecture](https://raw.githubusercontent.com/n8mcdunna/human-rights-first-ds-labs31/main/DS-Flow%20Chart.png){: .mx-auto.d-block :}
 
-![Age Group and Result](/assets/img/age_group_and_result (1).png){: .mx-auto.d-block :}
+A  FastAPI would be deployed using Elastic Beanstalk from AWS and a Postgres database would be set up using Amazon RDS. Our app only needed to store a small amount of data and handle a small number of users. Therefore the app did not need a specialized transactional or analytical database so a Postgres database was chosen.
 
-As shown in the graph below if you are speeding or driving a vehicle without the proper registration you are much more likely to be pulled over. Those two categories combine for over 68% of all traffic stops. Both of these offenses are easily visible to a patrolling officer which could lead to their high rates. 
+For the API, A FastAPI was chosen because it has a simple and easy-to-use routing system, uses a standardized OpenAPI schema, and is just fast.  Also, the built-in connection tools the API provided would be much better than the current situation of using a CSV file. 
 
-It seems like for the officers in this city if they are going to take the time to write something down they are going to make it count. The officers issue a citation 41% of the time versus just giving a written warning 4% of the time. 
+Now that a plan for the data architecture had formed I began the implementation phase. Except…  the existing codebase had multiple files with functions that were over two hundred lines of code that were not working. 
 
-The percent of people arrested from a traffic stop is very low at 1.97%. However if you have the misfortune of being stopped on suspicion of DWI the percent of arrests skyrocket to 75%. 
+So I dug into removing redundant code and breaking the huge functions into small easily readable and usable functions. Fortunately, this process taught me many useful details about how the data currently in use was being processed and the existing codebase. Then it was on to creating the database and deploying the API.
 
-The police seem to have a lot of advertising campaigns in the southeastern city that I live in (which may or may not be the city represented by the data) for preventing DWIs and wearing your seatbelt. However, this is not reflected in the percent of traffic stops. Seatbelts accounted for 0.8%, and DWIs for a measly 0.14% of total traffic stops.
+Database tables were created using the psycopg2 python library. API routes were created and tested locally. Then the errors began during the API deployment. First a module import error, then an environment variable error, then a spacy installation error. After carefully studying the AWS error logs, reviewing documentation, and multiple redeployment attempts the API was successfully deployed to AWS servers in Virginia! 
 
-![Reason and Result](/assets/img/reason_and_result (4).png){: .mx-auto.d-block :}
+## What are the next steps to improve this project?
+Currently, the machine-learning model sends several hundred incidents for an administrator to review before the incidents are displayed on the app. Many of these incidents are false positives and need to be filtered out before being sent to the dashboard of the administrator. Also, there are many tweets that create duplicates of the same police brutality incident. These duplicates need to be found and removed.
 
-# Conclusion
-Keep your vehicle registration up to date, be careful about speed limits, and be extra careful if you are in your 20s!
 
 For more content like this check out [my github](https://github.com/n8mcdunna) and [my medium account](https://medium.com/@n8.mcdonough)
