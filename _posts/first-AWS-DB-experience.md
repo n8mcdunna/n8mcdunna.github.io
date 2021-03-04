@@ -25,6 +25,8 @@ As you can see below there is a clear decline in traffic stops related to the ag
 ## What caused a stop and what was the result?
 So, why are people in their 20s getting stopped? The graph below shows the answer, and the answer is pretty boring with the number one reason being vehicle registration. The data shows that the older you are the more stops you have for speeding, although teens lead the speeding category with about 35% of their stops being speeding related. Another reason the percentage of speeding stops increases with age could be because the vehicle registration percentage decreases as drivers get more disciplined in keeping track of their registration.
 
+![Data Science Architecture](https://raw.githubusercontent.com/n8mcdunna/human-rights-first-ds-labs31/main/DS-Flow%20Chart.png){: .mx-auto.d-block :}
+
 ![Age Group and Result](/assets/img/age_group_and_result (1).png){: .mx-auto.d-block :}
 
 As shown in the graph below if you are speeding or driving a vehicle without the proper registration you are much more likely to be pulled over. Those two categories combine for over 68% of all traffic stops. Both of these offenses are easily visible to a patrolling officer which could lead to their high rates. 
