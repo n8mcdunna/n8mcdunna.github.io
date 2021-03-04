@@ -29,8 +29,10 @@ Another issue was that the existing codebase had multiple files with functions t
 ## How were these challenges resolved?
 An API connected to a database seemed to be the best solution to send data to the app. This method would increase the automation and scalability of the data retrieval process for the app. Here is a simple flowchart of the architecture:
 
-![Data Science Architecture](https://raw.githubusercontent.com/n8mcdunna/human-rights-first-ds-labs31/main/DS-Flow%20Chart.png)
+![Data Science Architecture](/assets/img/DS-FLow-Chart.png)
 
+{: .mx-auto.d-block :}
+(/assets/img/age_groups.png){: .mx-auto.d-block :}
 
 A  FastAPI would be deployed using Elastic Beanstalk from AWS and a Postgres database would be set up using Amazon RDS. Our app only needed to store a small amount of data and handle a small number of users. Therefore the app did not need a specialized transactional or analytical database so a Postgres database was chosen.
 
