@@ -2,9 +2,9 @@
 layout: post
 title: First Experience Using AWS
 subtitle: Planning the architecture, building a database, and deploying an API
-cover-img: /assets/img/path.jpg
+cover-img: /assets/img/database.jpg
 #thumbnail-img: /assets/img/thumb.png
-#share-img: /assets/img/path.jpg
+#share-img: /assets/img/database.jpg
 tags: [Lambda]
 ---
 ## Why this project?
